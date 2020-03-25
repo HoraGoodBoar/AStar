@@ -1,0 +1,11 @@
+﻿  GRAF_AStart.cpp
+D:\LIFE\GRAF_AStart\GRAF_AStart\AStar.h(34,21): warning C4018:  '<': signed/unsigned mismatch
+D:\LIFE\GRAF_AStart\GRAF_AStart\AStar.h(41,21): warning C4018:  '<': signed/unsigned mismatch
+D:\LIFE\GRAF_AStart\GRAF_AStart\AStar.h(64,21): warning C4018:  '<': signed/unsigned mismatch
+D:\LIFE\GRAF_AStart\GRAF_AStart\AStar.h(81,24): warning C4018:  '<': signed/unsigned mismatch
+D:\LIFE\GRAF_AStart\GRAF_AStart\AStar.h(112,19): warning C4018:  '<': signed/unsigned mismatch
+D:\LIFE\GRAF_AStart\GRAF_AStart\AStar.h(113,22): warning C4018:  '<': signed/unsigned mismatch
+D:\LIFE\GRAF_AStart\GRAF_AStart\GRAF_AStart.cpp(28,20): warning C4018:  '<': signed/unsigned mismatch
+D:\LIFE\GRAF_AStart\GRAF_AStart\GRAF_AStart.cpp(39,20): warning C4018:  '<': signed/unsigned mismatch
+D:\LIFE\GRAF_AStart\GRAF_AStart\GRAF_AStart.cpp(40,21): warning C4018:  '<': signed/unsigned mismatch
+  GRAF_AStart.vcxproj -> D:\LIFE\GRAF_AStart\Debug\GRAF_AStart.exe
