@@ -47,7 +47,7 @@ class AStar
 	void Search() {
 		for (int i = 0; i < 4; ++i) {
 			if(waitSteps[0].x + dx[i] >=0 && waitSteps[0].y + dy[i]>=0)
-				if (!isHaveOldStep(waitSteps[0].x + dx[i], waitSteps[0].y + dy[i]) && !isHaveNoStep(waitSteps[0].x + dx[i], waitSteps[0].y + dy[i])){
+				if (!isHaveOldStep(waitSteps[0].x + dx[i], waitSteps[0].y + dy[i]) && !isHaveNoStep(waitSteps[0].x + dx[i], waitSteps[0].y + dy[i]) && waitSteps[0].x + dx[i] < map[0].size() && waitSteps[0].y + dy[i] < map.size()){
 					waitSteps.push_back( Node(waitSteps[0].leng - 1, waitSteps[0].x + dx[i], waitSteps[0].y + dy[i]) );
 					//cout << waitSteps[0].leng - 1 << " # x = " << waitSteps[0].x + dx[i] << " # y = " << waitSteps[0].y + dy[i]<< endl;
 					//if (waitSteps[0].x + dx[i] == searchItem.x && waitSteps[0].y + dy[i] == searchItem.y)
